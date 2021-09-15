@@ -1,0 +1,123 @@
+body {
+    background-color: #8f4df8
+}
+
+.main-todo-input {
+    margin-top: 200px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 14px 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.0);
+}
+
+.fl-wrap {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.main-todo-input:before {
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    width: 50px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.41);
+    left: 50%;
+    margin-left: -25px
+}
+
+.main-todo-input-item {
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #eee;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px
+} 
+
+.main-todo-input-item input:first-child {
+    border-radius: 100%
+} 
+
+.main-todo-input-item input {
+    float: left;
+    border: none;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 6px !important;
+    background: #fff
+}
+
+
+.main-search-button {
+    background: #4DB7FE;
+    border-radius: 5%;
+     position: relative;
+    right: 0px;
+    height: 40px;
+    width: 100px;
+    color: #fff;
+    top: 0;
+    border: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    cursor: pointer
+}
+
+.main-todo-input-wrap {
+    max-width: 700px;
+    margin: 20px auto;
+    position: relative
+}
+
+:focus {
+    outline: 0
+}
+
+
+
+.remove {
+    float: right;
+    color: #757575 !important;
+    font-size: 14px
+}
+
+#list-items {
+    padding-left: 20px;
+    padding-top: 15px
+}
+
+ul {
+    padding: 0;
+    text-align: left;
+    list-style: decimal;
+}
+
+.todo-text {
+    color: #757575;
+    margin-left: 10px
+}
+
+.strike {
+    color: blue
+}
+
+.todo-listing {
+    padding: 0px 29px 0 0;
+    margin-top: 54px !important
+}
+
+@media screen and (max-width: 400px) {
+    .main-search-button {
+        height: 40px;
+        width: 80px;
+        font-size: small;
+       
+    }
+    
+  }
+
+  
